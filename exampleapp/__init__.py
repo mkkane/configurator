@@ -1,4 +1,7 @@
-import configurator
+import os
+
+from configurator import Config
 from . import settings
 
-config = configurator.from_module(settings)
+Config.set_instance_dir(os.path.dirname(__file__) + '/../instance')
+config = Config(settings)

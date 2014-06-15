@@ -1,0 +1,7 @@
+{
+  "DEBUG": false,
+  "LIST": ["new list"],
+  "NEW_VALUE": "shouldn't appear",
+  "INT": 1,
+  "FLOAT": 0.23
+}
